@@ -9,7 +9,7 @@ description = "A simple GUI for Neovim."
 [dependencies]
 euclid = "0.20.7"
 font-kit = "0.4.0"
-skribo = { git = "https://github.com/linebender/skribo" }
+skribo = { git = "https://github.com/linebender/skribo", rev = "a9e323b7e27f4f04eecc88f1915ce0364f512404" }
 lru = "0.4.3"
 skulpin = { git = "https://github.com/kethku/skulpin", branch = "winit_20" }
 derive-new = "0.5"
