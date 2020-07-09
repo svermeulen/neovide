@@ -107,7 +107,7 @@ impl Renderer {
             let line_position = self.shaper.underline_position();
             let stroke_width = self.shaper.options.size / 10.0;
             self.paint
-                .set_color(style.special(&default_style.colors).to_color());
+                .set_color(style.foreground(&default_style.colors).to_color());
             self.paint.set_stroke_width(stroke_width);
 
             if style.undercurl {
